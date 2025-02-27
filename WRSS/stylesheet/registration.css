@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: GTWalsheim, system-ui, sans-serif;
+}
+
+body, html {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3vh;
+}
+
+h4 {
+    text-align: center;
+    font-size: 2vh;
+    margin-bottom: 10px;
+}
+
+.form-container {
+    display: flex;
+    min-width: 450px;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+    padding: 20px;
+    border-left: 1px solid #0099ff;
+    border-right: 1px solid #0099ff;
+    border-radius: 50px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 2vh;
+}
+
+input {
+    font-size: 2vh;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #0099ff;
+    border-radius: 10px;
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+.insert-image label,
+.insert-image input,
+.insert-image .note {
+    margin: 0;
+}
+
+.full-name label,
+.full-name input,
+.full-name .note {
+    margin: 0;
+}
+
+.full-name {
+    margin-bottom: 10px;
+}
+
+.insert-image {
+    margin-bottom: 10px;
+}
+
+input:focus {
+    border-color: black;
+    outline: none;
+}
+
+.note {
+        font-size: 2vh;
+}
+
+span {
+    color: #0099ff;
+}
+
+#showPassword {
+    width: 30px;
+}
+
+.show {
+    font-size: 2vh;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0099ff;
+    color: white;
+    font-size: 2vh;
+    transition: 0.5s ease;
+}
+
+button:hover {
+    background-color: white;
+    border: 1px solid #0099ff;
+    color: #0099ff;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 2.5vh;
+}
+
+a {
+    color: #0099ff;
+    
+}
+
+.strongPassword p {
+    font-size: 2vh;
+    color: #0099ff;
+}
+
+.strongPassword {
+    margin-bottom: 25px;
+    padding-left: 25px;
+}

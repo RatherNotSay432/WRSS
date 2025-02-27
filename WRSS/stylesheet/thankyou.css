@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: GTWalsheim, system-ui, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  
+    gap: 1em;
+}
+
+.thankyou-container {
+    border-bottom: 1.5px solid #0099ff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5vh;
+    color: #0099ff;
+}
+
+p {
+    font-size: 3vh;
+}
+
+.from, a {
+    font-size: 2vh;
+}
+
+a, span {
+    color: #0099ff;
+}
+
+
